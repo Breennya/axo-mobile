@@ -26,7 +26,7 @@ class EditProfileScreen extends StatelessWidget {
               child: CircleAvatar(
                 radius: 40,
                 backgroundColor: Colors.black26,
-                child: Icon(Icons.person, size: 50),
+                  backgroundImage: AssetImage('assets/usuario.png'),
               ),
             ),
             const SizedBox(height: 20),

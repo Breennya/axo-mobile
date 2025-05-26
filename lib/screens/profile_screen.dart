@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -33,8 +34,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               children: [
                 const CircleAvatar(
                   radius: 40,
-                  backgroundColor: Colors.black26,
-                  child: Icon(Icons.person, size: 50),
+                  backgroundImage: AssetImage('assets/usuario.png'),
                 ),
                 const SizedBox(width: 16),
                 Expanded(
@@ -137,3 +137,4 @@ class _ProfileScreenState extends State<ProfileScreen> {
     );
   }
 }
+

@@ -6,6 +6,8 @@ import 'package:axo_app/screens/welcome_screen.dart';
 import 'package:axo_app/screens/profile_screen.dart';
 import 'package:axo_app/screens/edit_profile_screen.dart';
 
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +15,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
